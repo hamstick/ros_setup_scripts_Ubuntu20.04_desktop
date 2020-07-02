@@ -17,7 +17,7 @@ ls /etc/ros/rosdep/sources.list.d/20-default.list && sudo rm /etc/ros/rosdep/sou
 sudo apt install python3-pip
 sudo -H pip3 install rosdep
 sudo rosdep init 
-sudo rosdep update
+rosdep update
 
 sudo apt install -y python3-rosinstall
 sudo apt install -y build-essential
